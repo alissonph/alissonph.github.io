@@ -143,7 +143,7 @@ export default function Page({ toggleTheme }) {
       </Section>
       <Footer>
         <p>
-          2021 | Feito em React | Desenvolvido por: Alisson Paschoal Hausmann
+          2021 | Feito em React | Desenvolvido por: Alisson Hausmann
         </p>
       </Footer>
     </Container>
