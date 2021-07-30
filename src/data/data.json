@@ -30,6 +30,13 @@
   "intro": "Desenvolvedor de softwares, formado em ciências da computação, atualmente atuando focado em front-end/mobile.<br/> <br/> Tecnologias mais utilizadas:<br/> - React<br/> - React Native<br/> - Angular<br/> - Ionic<br/> <br/> Experiência em grandes projetos, inclusive para a Samsung, onde participei por mais de 1 ano e meio, sendo 30 dias de maneira presencial em Manaus-AM.<br/> <br/> GitHub: https://github.com/alissonph<br/> Site Pessoal: https://alissonph.github.io<br/> Brasileiro com dupla cidadania alemã",
   "experience": [
     {
+      "year": "08/2021 - Atual",
+      "companyName": "Stefanini",
+      "functionName": "Analista Desenvolvedor Pleno",
+      "city": "Brasília - SP",
+      "description": "Em desenvolvimento..."
+    },
+    {
       "year": "02/2021 - 07/2021",
       "companyName": "Icaro Tech",
       "functionName": "Desenvolvedor de Software Pleno",
