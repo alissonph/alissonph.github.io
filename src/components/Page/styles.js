@@ -79,6 +79,7 @@ export const SectionContentText = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
+  position: relative;
   margin: 40px 0;
 
   .text{
@@ -92,6 +93,7 @@ export const SectionContentText = styled.div`
     height: 15px;
     border-radius: 50%;
     background-color: ${props => props.theme.colors.secondary};
+    z-index: 10;
   }
 
   @media screen and (max-width: 768px) {
@@ -107,10 +109,22 @@ export const SectionExperience = styled.div`
     margin-top: 20px;
   }
 
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 5.5px;
+    width: 2px;
+    height: 100%;
+    border-left: 3px dashed ${props => props.theme.colors.tertiary};
+  }
+
   @media screen and (max-width: 1180px) {
     flex-direction: column;
     .text{
       margin-top: 10px;
+      margin-left: 25px;
       font-size: 1.4rem;
     }
   }
