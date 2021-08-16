@@ -139,7 +139,6 @@ export const Avatar = styled.img`
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: red;
 `;
 
 export const SectionName = styled.div`
