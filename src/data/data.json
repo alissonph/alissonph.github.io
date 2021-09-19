@@ -27,21 +27,21 @@
       "link": "https://www.linkedin.com/in/alissonph"
     }
   ],
-  "intro": "Desenvolvedor de softwares, formado em ciências da computação, atualmente trabalhando com front-end e mobile.<br/><br/>Tecnologias mais utilizadas:<br/>- Git (GitFlow, Sourcetree)<br/>- Scrum<br/><br/>Front:<br/>- React (Redux, Styled Components)<br/>- VueJS (Vuex)<br/>- Angular (Angular Material, PWA, Plotly)<br/>- SASS / CSS<br/>- Bootstrap<br/><br/>Mobile:<br/>- React Native (Redux, Styled Components)<br/>- Ionic<br/><br/>Experiência em grandes projetos, inclusive para a Samsung, onde participei por mais de 1 ano e meio, sendo 30 dias de maneira presencial em Manaus-AM.<br/><br/>GitHub: https://github.com/alissonph<br/>Site Pessoal: https://alissonph.github.io<br/>Brasileiro com dupla cidadania alemã",
+  "intro": "Desenvolvedor de softwares, formado em ciências da computação, atualmente trabalhando com mobile e front-end.<br/><br/>Tecnologias e Metodologias:<br/>- Typescript e Javascript- Git (GitFlow, Sourcetree)<br/>- APIs (Rest e SOAP)<br/>- Scrum<br/>- DevOps<br/>- Microserviços<br/><br/>Front:<br/>- React (Redux, Context API, Styled Components)<br/>- VueJS (Vuex)<br/>- Angular (Angular Material, PWA, Plotly)<br/>- SASS / CSS<br/>- Bootstrap<br/><br/>Mobile:<br/>- React Native (Redux, Context API, Styled Components)<br/>- Ionic<br/><br/>Experiência em grandes projetos, inclusive para a Samsung, onde participei por mais de 1 ano e meio, sendo 30 dias de maneira presencial em Manaus-AM.<br/><br/>GitHub: https://github.com/alissonph<br/>Site Pessoal: https://alissonph.github.io<br/>Brasileiro com dupla cidadania alemã",
   "experience": [
     {
       "year": "08/2021 - Atual",
       "companyName": "Stefanini",
-      "functionName": "Analista Desenvolvedor Pleno",
+      "functionName": "Desenvolvedor Mobile Pleno",
       "city": "Brasília - SP",
-      "description": "Desenvolvedor front-end e mobile.<br/><br/>Tecnologias utilizadas:<br/>- VueJS (HTML, CSS, Javascript, Bootstrap)<br/>- React Native<br/>- Git (GitFlow, SourceTree)<br/>- Scrum"
+      "description": "Atuei no desenvolvimento do aplicativo do Detran de Brasília - DF. Fiz o redesign do app completo baseado no protótipo feito pela equipe de UI/UX (no Adobe XD) e implementei novas funcionalidades, como: Transferência de veículo, inclusão de gravame, alteração de característica do veículo, termos de uso e conversão de placa para modelo Mercosul. Participei também da publicação de nova versão do app na Google Play (Android) e App Store (iOS).<br/><br/>Tecnologias utilizadas:<br/>- React Native (Context API, Stylesheet)<br/>- Git (GitFlow, SourceTree)"
     },
     {
       "year": "02/2021 - 07/2021",
       "companyName": "Icaro Tech",
-      "functionName": "Desenvolvedor de Software Pleno",
+      "functionName": "Desenvolvedor Front-end Pleno",
       "city": "Campinas - SP",
-      "description": "Desenvolvimento focado em front-end.<br/><br/>Atuei no projeto de Gestão de Frotas (que é uma plataforma web) da Bosch, onde fui responsável (por alguns meses) por 100% do front-end em Angular, peguei o projeto em andamento e conseguimos finalizar uma versão e lançá-la em produção.<br/><br/>Tecnologias mais utilizadas:<br/>- Angular 8 (Angular Material, Plotly, SASS, PWA, API Rest, Observable)<br/>- Git (GitFlow, SourceTree)<br/>- Azure (Kubernates, Docker)<br/>- Jira<br/>- Java (Spring Boot, Hibernate) <br/>- Scrum"
+      "description": "Atuei no projeto de Gestão de Frotas (que é uma plataforma web) da Bosch, onde fui responsável (por alguns meses) por 100% do front-end em Angular, peguei o projeto em andamento e conseguimos finalizar uma versão e lançá-la em produção.<br/><br/>Tecnologias mais utilizadas:<br/>- Angular 8 (Angular Material, Plotly, SASS, PWA, API Rest, Observable)<br/>- Git (GitFlow, SourceTree)<br/>- Azure (Kubernates, Docker)<br/>- Jira<br/>- Java (Spring Boot, Hibernate) <br/>- Scrum"
     },
     {
       "year": "12/2017 - 02/2021",
