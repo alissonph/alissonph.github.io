@@ -83,7 +83,7 @@ export const SectionContentText = styled.div`
   margin: 40px 0;
 
   .text{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .badge{
@@ -125,7 +125,6 @@ export const SectionExperience = styled.div`
     .text{
       margin-top: 10px;
       margin-left: 25px;
-      font-size: 1.4rem;
     }
   }
 `;
