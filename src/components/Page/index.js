@@ -1,14 +1,33 @@
-import React from 'react';
-import { Container, Section, SectionHeader, SectionTitle, SectionContent, SectionContentText, Avatar, SectionName, SectionLink, LinkButton, SectionInfo, InfoItem, ExperienceInfo, SectionExperience, SectionExperienceInfo, EducationInfo, SectionTechnologies, Technology, Footer} from './styles';
-import { Switch } from '../Switch';
-import perfil from '../../assets/images/perfil.jpeg';
-import linkedin from '../../assets/icons/linkedin.svg';
-import github from '../../assets/icons/github.svg';
-import whatsapp from '../../assets/icons/whatsapp.svg';
-import data from '../../data/data.json';
+import React from "react";
+import {
+  Container,
+  Section,
+  SectionHeader,
+  SectionTitle,
+  SectionContent,
+  SectionContentText,
+  Avatar,
+  SectionName,
+  SectionLink,
+  LinkButton,
+  SectionInfo,
+  InfoItem,
+  ExperienceInfo,
+  SectionExperience,
+  SectionExperienceInfo,
+  EducationInfo,
+  SectionTechnologies,
+  Technology,
+  Footer,
+} from "./styles";
+import { Switch } from "../Switch";
+import perfil from "../../assets/images/perfil.jpg";
+import linkedin from "../../assets/icons/linkedin.svg";
+import github from "../../assets/icons/github.svg";
+import whatsapp from "../../assets/icons/whatsapp.svg";
+import data from "../../data/data.json";
 
 export default function Page({ toggleTheme }) {
-
   return (
     <Container>
       <Section height="100vh">
@@ -27,25 +46,49 @@ export default function Page({ toggleTheme }) {
               <p className="function">{data.function}</p>
             </SectionName>
             <SectionLink>
-              <LinkButton href={data.linkedinLink} target="_blank" rel="noopener noreferrer">
-                <img src={linkedin} alt="Linkedin"/>
+              <LinkButton
+                href={data.linkedinLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={linkedin} alt="Linkedin" />
               </LinkButton>
-              <LinkButton href={data.githubLink} target="_blank" rel="noopener noreferrer">
-                <img src={github} alt="Github"/>
+              <LinkButton
+                href={data.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={github} alt="Github" />
               </LinkButton>
-              <LinkButton href={data.whatsappLink} target="_blank" rel="noopener noreferrer">
-                <img src={whatsapp} alt="Whatsapp"/>
+              <LinkButton
+                href={data.whatsappLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={whatsapp} alt="Whatsapp" />
               </LinkButton>
             </SectionLink>
           </div>
           <SectionInfo>
-            {data.info.map((item) =>
+            {data.info.map((item) => (
               <InfoItem key={item.title}>
                 <p className="title">{item.title}</p>
-                {item.link === '' && <p className="description">{item.description}</p>}
-                {item.link !== '' && <p className="description"><a href={item.link} target="_blank" rel="noopener noreferrer">{item.description}</a></p>}
+                {item.link === "" && (
+                  <p className="description">{item.description}</p>
+                )}
+                {item.link !== "" && (
+                  <p className="description">
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {item.description}
+                    </a>
+                  </p>
+                )}
               </InfoItem>
-            )}
+            ))}
           </SectionInfo>
         </SectionContent>
       </Section>
@@ -58,9 +101,10 @@ export default function Page({ toggleTheme }) {
         </SectionHeader>
         <SectionContent odd>
           <SectionContentText>
-            <p className="text" dangerouslySetInnerHTML={ { __html: data.intro } }>
-              
-            </p>
+            <p
+              className="text"
+              dangerouslySetInnerHTML={{ __html: data.intro }}
+            ></p>
           </SectionContentText>
         </SectionContent>
       </Section>
@@ -73,24 +117,25 @@ export default function Page({ toggleTheme }) {
         </SectionHeader>
         <SectionContent>
           <SectionContentText>
-            {data.experience.map((item) =>
+            {data.experience.map((item) => (
               <SectionExperience key={item.companyName}>
-              <SectionExperienceInfo>
-                <div className="badge">
+                <SectionExperienceInfo>
+                  <div className="badge"></div>
+                  <ExperienceInfo>
+                    <p className="yearInfo">{item.year}</p>
+                    <p className="companyName">{item.companyName}</p>
+                    <p className="functionName">{item.functionName}</p>
+                    <p className="city">{item.city}</p>
+                  </ExperienceInfo>
+                </SectionExperienceInfo>
+                <div>
+                  <p
+                    className="text"
+                    dangerouslySetInnerHTML={{ __html: item.description }}
+                  ></p>
                 </div>
-                <ExperienceInfo>
-                  <p className="yearInfo">{item.year}</p>
-                  <p className="companyName">{item.companyName}</p>
-                  <p className="functionName">{item.functionName}</p>
-                  <p className="city">{item.city}</p>
-                </ExperienceInfo>
-              </SectionExperienceInfo>
-              <div>
-                <p className="text" dangerouslySetInnerHTML={ { __html: item.description } }>
-                </p>
-              </div>
-            </SectionExperience>
-            )}
+              </SectionExperience>
+            ))}
           </SectionContentText>
         </SectionContent>
       </Section>
@@ -103,11 +148,10 @@ export default function Page({ toggleTheme }) {
         </SectionHeader>
         <SectionContent odd>
           <SectionContentText>
-            {data.education.map((item) =>
+            {data.education.map((item) => (
               <SectionExperience key={item.courseName}>
                 <SectionExperienceInfo>
-                  <div className="badge">
-                  </div>
+                  <div className="badge"></div>
                   <EducationInfo>
                     <p className="yearInfo">{item.year}</p>
                     <p className="companyName">{item.companyName}</p>
@@ -116,7 +160,7 @@ export default function Page({ toggleTheme }) {
                   </EducationInfo>
                 </SectionExperienceInfo>
               </SectionExperience>
-            )}
+            ))}
           </SectionContentText>
         </SectionContent>
       </Section>
@@ -130,13 +174,12 @@ export default function Page({ toggleTheme }) {
         <SectionContent>
           <SectionContentText>
             <SectionTechnologies>
-              {data.technologies.map((item) =>
-                  <Technology key={item}>
-                    <div className="badge">
-                    </div>
-                    <p>{item}</p>
-                  </Technology>
-              )}
+              {data.technologies.map((item) => (
+                <Technology key={item}>
+                  <div className="badge"></div>
+                  <p>{item}</p>
+                </Technology>
+              ))}
             </SectionTechnologies>
           </SectionContentText>
         </SectionContent>
@@ -147,5 +190,5 @@ export default function Page({ toggleTheme }) {
         </p>
       </Footer>
     </Container>
-  )
+  );
 }
