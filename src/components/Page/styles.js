@@ -341,12 +341,13 @@ export const Footer = styled.div`
 `;
 
 export const LanguageSelection = styled.div`
-  position: absolute;
+  position: fixed;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 5%;
+  bottom: 5%;
+  z-index: 20;
 
   display: flex;
   flex-direction: column;

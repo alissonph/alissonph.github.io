@@ -126,6 +126,26 @@ export default function Page({ toggleTheme, setLanguage, language }) {
             ))}
           </SectionInfo>
         </SectionContent>
+        {!hasPreferredLanguage() && (
+          <LanguageSelection>
+            <div className='content'>
+              <p>Select your preferred language:</p>
+              <img
+                src={brazil}
+                onClick={selectPtBr}
+                alt='Select portuguese language'
+              />
+              <img
+                src={unitedStates}
+                onClick={selectEn}
+                alt='Select english language'
+              />
+            </div>
+            <p className='observation'>
+              You can also change the language in the footer
+            </p>
+          </LanguageSelection>
+        )}
       </Section>
       <Section height='auto'>
         <SectionHeader odd>
@@ -234,26 +254,6 @@ export default function Page({ toggleTheme, setLanguage, language }) {
           alt='Select english language'
         />
       </Footer>
-      {!hasPreferredLanguage() && (
-        <LanguageSelection>
-          <div className='content'>
-            <p>Select your preferred language:</p>
-            <img
-              src={brazil}
-              onClick={selectPtBr}
-              alt='Select portuguese language'
-            />
-            <img
-              src={unitedStates}
-              onClick={selectEn}
-              alt='Select english language'
-            />
-          </div>
-          <p className='observation'>
-            You can also change the language in the footer
-          </p>
-        </LanguageSelection>
-      )}
     </Container>
   );
 }
