@@ -8,7 +8,8 @@
   "info": [
     {
       "title": "Localização",
-      "description": "Artur Nogueira - SP"
+      "description": "Artur Nogueira - SP",
+      "link": "https://goo.gl/maps/d6tgm3qdCHex89h66"
     },
     {
       "title": "Telefone",
@@ -29,7 +30,7 @@
   "intro": {
     "title": "Introdução",
     "subTitle": "Um pouco mais sobre mim",
-    "description": "Desenvolvedor front-end e mobile, formado em ciências da computação, tenho contato com programação há 10 anos. Sou uma pessoa que sempre busca estar atualizada aprendendo novas tecnologias e metodologias para sempre resolver os problemas da melhor maneira possível.<br/><br/>Sou brasileiro, mas também tenho dupla cidadania alemã.<br/><br/>Tecnologias e Metodologias:<br/>- Typescript e Javascript<br/>- Git (GitFlow, Sourcetree)<br/>- APIs (Rest e SOAP)<br/>- Scrum<br/>- DevOps<br/>- Microserviços<br/><br/>Front:<br/>- React (Redux, Context API, Styled Components)<br/>- VueJS (Vuex)<br/>- Angular (Angular Material, PWA, Plotly)<br/>- SASS / CSS<br/>- Bootstrap<br/><br/>Mobile:<br/>- React Native (Redux, Context API, Styled Components)<br/>- Ionic<br/><br/>Possuo experiência em grandes projetos e empresas como Samsung e Bosch.<br/><br/>GitHub: https://github.com/alissonph<br/>Site Pessoal: https://alissonph.github.io"
+    "description": "Desenvolvedor front-end e mobile, formado em ciências da computação, tenho contato com programação há 10 anos. Sou uma pessoa que sempre busca estar atualizada aprendendo novas tecnologias e metodologias para sempre resolver os problemas da melhor maneira possível.<br/><br/>Sou brasileiro, mas também tenho dupla cidadania alemã.<br/><br/>Tecnologias e Metodologias:<br/>- Typescript e Javascript<br/>- Git (GitFlow, Sourcetree)<br/>- APIs (Rest e SOAP)<br/>- Scrum<br/>- DevOps<br/>- Microserviços<br/><br/>Front:<br/>- React (Redux, Context API, Styled Components)<br/>- VueJS (Vuex)<br/>- Angular (Angular Material, PWA, Plotly)<br/>- SASS / CSS<br/>- Bootstrap<br/><br/>Mobile:<br/>- React Native (Redux, Context API, Styled Components)<br/>- Ionic<br/><br/>Possuo experiência em grandes projetos e empresas como Samsung e Bosch.<br/><br/>GitHub: <a href='https://github.com/alissonph' target='_blank'>https://github.com/alissonph</a>"
   },
   "experience": {
     "title": "Experiência",

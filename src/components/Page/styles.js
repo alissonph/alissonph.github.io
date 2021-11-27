@@ -186,12 +186,10 @@ export const LinkButton = styled.a`
     height: 25px;
     filter: invert(73%) sepia(4%) saturate(85%) hue-rotate(169deg)
       brightness(92%) contrast(84%);
-  }
+    transition: transform 0.3s ease;
 
-  :hover {
-    img {
-      width: 27px;
-      height: 27px;
+    &:hover {
+      transform: scale(1.1);
       filter: invert(83%) sepia(47%) saturate(4126%) hue-rotate(1deg)
         brightness(94%) contrast(90%);
     }
@@ -331,6 +329,11 @@ export const Footer = styled.div`
     cursor: pointer;
     margin-left: 1rem;
     width: 3rem;
+    transition: 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
 
     &.selected {
       filter: brightness(50%);
@@ -368,7 +371,12 @@ export const LanguageSelection = styled.div`
     img {
       cursor: pointer;
       margin-left: 1rem;
-      width: 3rem;
+      width: 4rem;
+      transition: 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 

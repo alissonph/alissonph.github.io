@@ -1,5 +1,9 @@
 const PREFERRED_LANGUAGE_TAG = '@preferred_language';
 
+export function isDarkMode() {
+  return window?.matchMedia('(prefers-color-scheme: dark)')?.matches || false;
+}
+
 export function hasPreferredLanguage() {
   return !!localStorage.getItem(PREFERRED_LANGUAGE_TAG);
 }
