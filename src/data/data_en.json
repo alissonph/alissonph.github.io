@@ -13,7 +13,7 @@
     },
     {
       "title": "Phone",
-      "description": "(19) 99117-0250",
+      "description": "+55 (19) 99117-0250",
       "link": "https://api.whatsapp.com/send?phone=5519991170250&text=Hello%20Alisson"
     },
     {
@@ -41,35 +41,35 @@
         "companyName": "RecargaPay",
         "functionName": "Mobile Engineer",
         "city": "São Paulo - SP - Brazil",
-        "description": "Desenvolvimento mobile utilizando React Native."
+        "description": "RecargaPay is the leading mobile payment wallet in Brazil. A fintech (450+ employees) whose the mission is democratize mobile payments and financial services. Here I work developing new features and bug fixes for the mobile app using React Native.<br/><br/>Main technologies:<br/>- React Native (Redux)<br/>- Git (Github, SourceTree)<br/><br/><br/>"
       },
       {
         "year": "08/2021 - 09/2021",
         "companyName": "Stefanini",
         "functionName": "Mobile Developer (Mid-level)",
         "city": "Brasília - SP - Brazil",
-        "description": "Atuei no desenvolvimento do aplicativo do Detran de Brasília - DF. Fiz o redesign do app completo baseado no protótipo feito pela equipe de UI/UX (no Adobe XD) e implementei novas funcionalidades, como: Transferência de veículo, inclusão de gravame, alteração de característica do veículo, termos de uso e conversão de placa para modelo Mercosul. Participei também da publicação de nova versão do app na Google Play (Android) e App Store (iOS).<br/><br/>Tecnologias utilizadas:<br/>- React Native (Context API, Stylesheet)<br/>- Git (GitFlow, SourceTree)"
+        "description": "Stefanini is a brazilian multinational software consulting (25000+ employees). Detran is the Department of Motor Vehicles (DMV) in Brazil. I worked developing the Detran application (Brasília - DF - Brazil). I redesigned the entire app based on the prototype made by the UI/UX team (Adobe XD) and developed new features. I also participated publishing the new app version on Google Play (Android) and App Store (iOS).<br/><br/>Main technologies:<br/>- React Native (Context API, Stylesheet)<br/>- Git (GitFlow, SourceTree)<br/><br/><br/>"
       },
       {
         "year": "02/2021 - 07/2021",
         "companyName": "Icaro Tech",
         "functionName": "Front-end Developer (Mid-level)",
         "city": "Campinas - SP - Brazil",
-        "description": "Atuei no projeto de Gestão de Frotas (que é uma plataforma web) da Bosch, onde fui responsável (por alguns meses) por 100% do front-end em Angular, peguei o projeto em andamento e conseguimos finalizar uma versão e lançá-la em produção.<br/><br/>Tecnologias mais utilizadas:<br/>- Angular 8 (Angular Material, Plotly, SASS, PWA, API Rest, Observable)<br/>- Git (GitFlow, SourceTree)<br/>- Azure (Kubernates, Docker)<br/>- Jira<br/>- Java (Spring Boot, Hibernate) <br/>- Scrum"
+        "description": "Icaro Tech works in the Digital Transformation of companies through Automation, with a focus on Operational Efficiency and User Experience (200+ employees). Bosch is a German multinational engineering and electronics company. I worked on the Bosch project, developing a new web application called Fleet management, I was responsible for the all the front-end development in Angular during some months. I started working on the project that was in progress, we finished it and released a production version.<br/><br/>Main technologies:<br/>- Angular 8 (Angular Material, Plotly, SASS, PWA, API Rest, Observable)<br/>- Git (GitFlow, SourceTree)<br/>- Azure (Kubernates, Docker)<br/>- Jira<br/>- Java (Spring Boot, Hibernate) <br/>- Scrum<br/><br/><br/>"
       },
       {
         "year": "12/2017 - 02/2021",
         "companyName": "TOTVS Interior Paulista",
         "functionName": "Software Developer (Mid-level)",
         "city": "Campinas - SP - Brazil",
-        "description": "- Desenvolvimento de personalizações no Fluig (Formulário(ECM), diagrama/workflow (BPM), widgets e layouts (WCM) e GED - Gestão de Documentos)<br/>- Desenvolvimento de personalizações no ERP Protheus em diversos módulos como Compras, Financeiro, Faturamento, Gestão de Contratos, Gestão de Pessoal entre outros<br/>- Atuado em diversos projetos de vários clientes, presencialmente e também remoto<br/>- Responsável pela estruturação/organização do repositório de fontes no GIT/SVN e controle de padrão de desenvolvimento (boas práticas) em alguns projetos<br/>- Ministração de treinamentos de desenvolvimento no Fluig<br/>-Conhecimento da infraestrutura do Fluig e Protheus (instalação/atualização, configuração e manutenção)<br/><br/>Tecnologias Utilizadas:<br/>- Fluig: HMTL, CSS, JavaScript, JQuery e Bootstrap<br/>- Protheus: ADVPL<br/>- Angular<br/>- SQL Server<br/>- Versionamento de fontes utilizando GIT e SVN<br/>- API/Webservice REST e SOAP<br/>- GoodData(TOTVS Analytics)<br/>"
+        "description": "TOTVS is the largest technology company in Brazil, works with management software, productivity and collaboration platforms and consulting. I worked developing new features for Protheus software, and developing web applications. I worked on over 15 different clients, the biggest one being Samsung. I also conducted technical training, teaching how to developing a web app, and was responsible for good coding practices, structure and organization in the Git/SVN repository in some projects.<br/><br/>Main technologies:<br/>- Angular, HMTL, CSS, JavaScript, JQuery and Bootstrap<br/>- Protheus: ADVPL (proprietary language)<br/>- SQL Server<br/>- Git and SVN<br/>- Rest and SOAP APIs<br/><br/><br/>"
       },
       {
         "year": "12/2013 - 11/2017",
         "companyName": "Art Informática, Papelaria e Eletrônicos LTDA.",
         "functionName": "Computer Technician",
         "city": "Artur Nogueira - SP - Brazil",
-        "description": "- Manutenção em Computadores, Notebooks, Smartphones e Tablets.<br/>- Montagem de Computadores.<br/>- Visita Técnica.<br/>- Suporte ao usuário.<br/>- Configuração e manutenção em redes cabeadas e sem fio.<br/>"
+        "description": "Art Informática is a small company where I started my technology career before moving be a developer.<br/><br/>- Computer, Laptop, Smartphone and Tablet maintenance.<br/>- Computer assembly.<br/>- Technical visit.<br/>- User support.<br/>- Setup and maintenance on wired and wireless networks.<br/>"
       }
     ]
   },

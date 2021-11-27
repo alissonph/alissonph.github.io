@@ -20,6 +20,7 @@ import {
   Technology,
   Footer,
   LanguageSelection,
+  LoadingContainer,
 } from './styles';
 import { Switch } from '../Switch';
 import perfil from '../../assets/images/perfil.jpg';
@@ -28,6 +29,7 @@ import github from '../../assets/icons/github.svg';
 import whatsapp from '../../assets/icons/whatsapp.svg';
 import brazil from '../../assets/icons/brazil.svg';
 import unitedStates from '../../assets/icons/united-states.svg';
+import loading from '../../assets/icons/loading.svg';
 import dataPtBr from '../../data/data_pt-BR.json';
 import dataEn from '../../data/data_en.json';
 import { hasPreferredLanguage, setPreferredLanguage } from '../../utils/utils';
@@ -55,8 +57,11 @@ export default function Page({ toggleTheme, setLanguage, language }) {
   }
 
   if (!data) {
-    //FIXME: Loading component
-    return 'Loading...';
+    return (
+      <LoadingContainer>
+        <img src={loading} alt='Loading' />
+      </LoadingContainer>
+    );
   }
 
   return (

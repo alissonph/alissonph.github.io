@@ -41,28 +41,28 @@
         "companyName": "RecargaPay",
         "functionName": "Mobile Engineer",
         "city": "São Paulo - SP",
-        "description": "Desenvolvimento mobile utilizando React Native."
+        "description": "Trabalho desenvolvendo novas funcionalidades e correções de bugs no aplicativo RecargaPay, que é um aplicativo de carteira de pagamentos.<br/><br/>Tecnologias utilizadas:<br/>- React Native<br/>- Git (Github, SourceTree)<br/><br/><br/>"
       },
       {
         "year": "08/2021 - 09/2021",
         "companyName": "Stefanini",
         "functionName": "Desenvolvedor Mobile Pleno",
         "city": "Brasília - SP",
-        "description": "Atuei no desenvolvimento do aplicativo do Detran de Brasília - DF. Fiz o redesign do app completo baseado no protótipo feito pela equipe de UI/UX (no Adobe XD) e implementei novas funcionalidades, como: Transferência de veículo, inclusão de gravame, alteração de característica do veículo, termos de uso e conversão de placa para modelo Mercosul. Participei também da publicação de nova versão do app na Google Play (Android) e App Store (iOS).<br/><br/>Tecnologias utilizadas:<br/>- React Native (Context API, Stylesheet)<br/>- Git (GitFlow, SourceTree)"
+        "description": "Atuei no desenvolvimento do aplicativo do Detran de Brasília - DF. Fiz o redesign do app completo baseado no protótipo feito pela equipe de UI/UX (no Adobe XD) e implementei novas funcionalidades, como: Transferência de veículo, inclusão de gravame, alteração de característica do veículo, termos de uso e conversão de placa para modelo Mercosul. Participei também da publicação de nova versão do app na Google Play (Android) e App Store (iOS).<br/><br/>Tecnologias utilizadas:<br/>- React Native (Context API, Stylesheet)<br/>- Git (GitFlow, SourceTree)<br/><br/><br/>"
       },
       {
         "year": "02/2021 - 07/2021",
         "companyName": "Icaro Tech",
         "functionName": "Desenvolvedor Front-end Pleno",
         "city": "Campinas - SP",
-        "description": "Atuei no projeto de Gestão de Frotas (que é uma plataforma web) da Bosch, onde fui responsável (por alguns meses) por 100% do front-end em Angular, peguei o projeto em andamento e conseguimos finalizar uma versão e lançá-la em produção.<br/><br/>Tecnologias mais utilizadas:<br/>- Angular 8 (Angular Material, Plotly, SASS, PWA, API Rest, Observable)<br/>- Git (GitFlow, SourceTree)<br/>- Azure (Kubernates, Docker)<br/>- Jira<br/>- Java (Spring Boot, Hibernate) <br/>- Scrum"
+        "description": "Atuei no projeto de Gestão de Frotas (que é uma plataforma web) da Bosch, onde fui responsável (por alguns meses) por 100% do front-end em Angular, peguei o projeto em andamento e conseguimos finalizar uma versão e lançá-la em produção.<br/><br/>Tecnologias utilizadas:<br/>- Angular 8 (Angular Material, Plotly, SASS, PWA, API Rest, Observable)<br/>- Git (GitFlow, SourceTree)<br/>- Azure (Kubernates, Docker)<br/>- Jira<br/>- Java (Spring Boot, Hibernate) <br/>- Scrum<br/><br/><br/>"
       },
       {
         "year": "12/2017 - 02/2021",
         "companyName": "TOTVS Interior Paulista",
         "functionName": "Analista Desenvolvedor Pleno",
         "city": "Campinas - SP",
-        "description": "- Desenvolvimento de personalizações no Fluig (Formulário(ECM), diagrama/workflow (BPM), widgets e layouts (WCM) e GED - Gestão de Documentos)<br/>- Desenvolvimento de personalizações no ERP Protheus em diversos módulos como Compras, Financeiro, Faturamento, Gestão de Contratos, Gestão de Pessoal entre outros<br/>- Atuado em diversos projetos de vários clientes, presencialmente e também remoto<br/>- Responsável pela estruturação/organização do repositório de fontes no GIT/SVN e controle de padrão de desenvolvimento (boas práticas) em alguns projetos<br/>- Ministração de treinamentos de desenvolvimento no Fluig<br/>-Conhecimento da infraestrutura do Fluig e Protheus (instalação/atualização, configuração e manutenção)<br/><br/>Tecnologias Utilizadas:<br/>- Fluig: HMTL, CSS, JavaScript, JQuery e Bootstrap<br/>- Protheus: ADVPL<br/>- Angular<br/>- SQL Server<br/>- Versionamento de fontes utilizando GIT e SVN<br/>- API/Webservice REST e SOAP<br/>- GoodData(TOTVS Analytics)<br/>"
+        "description": "- Desenvolvimento de personalizações no Fluig (Formulário(ECM), diagrama/workflow (BPM), widgets e layouts (WCM) e GED - Gestão de Documentos)<br/>- Desenvolvimento de personalizações no ERP Protheus em diversos módulos como Compras, Financeiro, Faturamento, Gestão de Contratos, Gestão de Pessoal entre outros<br/>- Atuado em diversos projetos de vários clientes, presencialmente e também remoto<br/>- Responsável pela estruturação/organização do repositório de fontes no GIT/SVN e controle de padrão de desenvolvimento (boas práticas) em alguns projetos<br/>- Ministração de treinamentos de desenvolvimento no Fluig<br/>-Conhecimento da infraestrutura do Fluig e Protheus (instalação/atualização, configuração e manutenção)<br/><br/>Tecnologias utilizadas:<br/>- Fluig: HMTL, CSS, JavaScript, JQuery e Bootstrap<br/>- Protheus: ADVPL<br/>- Angular<br/>- SQL Server<br/>- Versionamento de fontes utilizando GIT e SVN<br/>- API/Webservice REST e SOAP<br/>- GoodData(TOTVS Analytics)<br/><br/><br/>"
       },
       {
         "year": "12/2013 - 11/2017",

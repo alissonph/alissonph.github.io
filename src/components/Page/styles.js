@@ -9,7 +9,6 @@ export const Section = styled.div`
   flex-direction: row;
   width: 100%;
   height: ${(props) => props.height};
-  background-color: green;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -384,4 +383,14 @@ export const LanguageSelection = styled.div`
     margin-top: 1rem;
     font-size: 1.2rem;
   }
+`;
+
+export const LoadingContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-color: ${(props) => props.theme.colors.backgroundPrimary};
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
