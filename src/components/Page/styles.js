@@ -8,12 +8,12 @@ export const Section = styled.div`
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: ${props => props.height};
-  background-color:green;
+  height: ${(props) => props.height};
+  background-color: green;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    height: ${props => props.height === '100vh' ? '100%' : props.height};
+    height: ${(props) => (props.height === '100vh' ? '100%' : props.height)};
   }
 `;
 
@@ -23,11 +23,14 @@ export const SectionHeader = styled.div`
   justify-content: center;
   align-items: flex-end;
   width: 40%;
-  background-color: ${props => props.odd ? props.theme.colors.backgroundSecondary : props.theme.colors.backgroundPrimary};
+  background-color: ${(props) =>
+    props.odd
+      ? props.theme.colors.backgroundSecondary
+      : props.theme.colors.backgroundPrimary};
   padding-right: 50px;
 
   @media screen and (max-width: 768px) {
-    background-color: ${props => props.theme.colors.backgroundPrimary};
+    background-color: ${(props) => props.theme.colors.backgroundPrimary};
     padding: 10px 0;
     align-items: center;
     width: 100%;
@@ -41,12 +44,12 @@ export const SectionTitle = styled.div`
   margin-top: 40px;
   text-align: right;
 
-  .title{
+  .title {
     font-size: 1.6rem;
     font-weight: bold;
   }
 
-  .subTitle{
+  .subTitle {
     margin-top: 7px;
     font-size: 1.2rem;
   }
@@ -64,13 +67,16 @@ export const SectionContent = styled.div`
   justify-content: center;
   align-items: flex-start;
   width: 60%;
-  background-color: ${props => props.odd ? props.theme.colors.backgroundPrimary : props.theme.colors.backgroundSecondary};
+  background-color: ${(props) =>
+    props.odd
+      ? props.theme.colors.backgroundPrimary
+      : props.theme.colors.backgroundSecondary};
   padding: 0 40px 0 50px;
 
   @media screen and (max-width: 768px) {
-    background-color: ${props => props.theme.colors.backgroundSecondary};
+    background-color: ${(props) => props.theme.colors.backgroundSecondary};
     padding: 10px 0;
-    align-items: ${props => props.header ? 'center' : 'flex-start'};
+    align-items: ${(props) => (props.header ? 'center' : 'flex-start')};
     width: 100%;
   }
 `;
@@ -82,17 +88,17 @@ export const SectionContentText = styled.div`
   position: relative;
   margin: 40px 0;
 
-  .text{
+  .text {
     font-size: 1.4rem;
   }
 
-  .badge{
+  .badge {
     min-width: 15px;
     min-height: 15px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: ${props => props.theme.colors.secondary};
+    background-color: ${(props) => props.theme.colors.secondary};
     z-index: 10;
   }
 
@@ -105,7 +111,7 @@ export const SectionExperience = styled.div`
   display: flex;
   flex-direction: row;
 
-  :not(:first-child){
+  :not(:first-child) {
     margin-top: 20px;
   }
 
@@ -117,12 +123,12 @@ export const SectionExperience = styled.div`
     margin-left: 5.5px;
     width: 2px;
     height: 100%;
-    border-left: 3px dashed ${props => props.theme.colors.tertiary};
+    border-left: 3px dashed ${(props) => props.theme.colors.tertiary};
   }
 
   @media screen and (max-width: 1180px) {
     flex-direction: column;
-    .text{
+    .text {
       margin-top: 10px;
       margin-left: 25px;
     }
@@ -143,16 +149,16 @@ export const Avatar = styled.img`
 export const SectionName = styled.div`
   display: flex;
   flex-direction: column;
-  
-  .lastName{
+
+  .lastName {
     font-size: 3rem;
   }
-  .name{
+  .name {
     font-size: 8rem;
     font-weight: bold;
-    color: ${props => props.theme.colors.secondary};
+    color: ${(props) => props.theme.colors.secondary};
   }
-  .function{
+  .function {
     padding-top: 10px;
     font-size: 2rem;
   }
@@ -165,7 +171,7 @@ export const SectionLink = styled.div`
 `;
 
 export const LinkButton = styled.a`
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 3px;
@@ -173,26 +179,28 @@ export const LinkButton = styled.a`
   height: 35px;
   border-radius: 6px;
   cursor: pointer;
-  background-color: ${props => props.theme.colors.backgroundPrimary};
+  background-color: ${(props) => props.theme.colors.backgroundPrimary};
 
-  img{
+  img {
     width: 25px;
     height: 25px;
-    filter: invert(73%) sepia(4%) saturate(85%) hue-rotate(169deg) brightness(92%) contrast(84%);
+    filter: invert(73%) sepia(4%) saturate(85%) hue-rotate(169deg)
+      brightness(92%) contrast(84%);
   }
 
-  :hover{
+  :hover {
     img {
       width: 27px;
       height: 27px;
-      filter: invert(83%) sepia(47%) saturate(4126%) hue-rotate(1deg) brightness(94%) contrast(90%);
+      filter: invert(83%) sepia(47%) saturate(4126%) hue-rotate(1deg)
+        brightness(94%) contrast(90%);
     }
   }
 `;
 
 export const SectionInfo = styled.div`
   margin-top: 50px;
-  border-top: 1px solid ${props => props.theme.colors.primary};
+  border-top: 1px solid ${(props) => props.theme.colors.primary};
   width: 100%;
 
   display: grid;
@@ -213,11 +221,11 @@ export const InfoItem = styled.div`
   flex-direction: column;
   padding: 10px;
 
-  .title{
+  .title {
     font-size: 1.6rem;
     font-weight: bold;
   }
-  .description{
+  .description {
     margin-top: 7px;
     font-size: 1.2rem;
   }
@@ -232,52 +240,52 @@ export const ExperienceInfo = styled.div`
   min-width: 250px;
   width: 250px;
 
-  p:not(:first-child){
+  p:not(:first-child) {
     margin-top: 10px;
   }
 
-  .yearInfo{
+  .yearInfo {
     font-size: 1.2rem;
-    color: ${props => props.theme.colors.tertiary};
+    color: ${(props) => props.theme.colors.tertiary};
   }
 
-  .companyName{
+  .companyName {
     font-size: 1.8rem;
     font-weight: bold;
   }
 
-  .functionName{
+  .functionName {
     font-size: 1.2rem;
   }
 
-  .city{
-    color: ${props => props.theme.colors.tertiary};
+  .city {
+    color: ${(props) => props.theme.colors.tertiary};
   }
 `;
 
 export const EducationInfo = styled.div`
   margin-left: 10px;
 
-  p:not(:first-child){
+  p:not(:first-child) {
     margin-top: 10px;
   }
 
-  .yearInfo{
+  .yearInfo {
     font-size: 1.2rem;
-    color: ${props => props.theme.colors.tertiary};
+    color: ${(props) => props.theme.colors.tertiary};
   }
 
-  .companyName{
+  .companyName {
     font-size: 1.8rem;
     font-weight: bold;
   }
 
-  .courseName{
+  .courseName {
     font-size: 1.2rem;
   }
 
-  .city{
-    color: ${props => props.theme.colors.tertiary};
+  .city {
+    color: ${(props) => props.theme.colors.tertiary};
   }
 `;
 
@@ -299,7 +307,7 @@ export const Technology = styled.div`
   display: flex;
   flex-direction: row;
 
-  p{
+  p {
     margin-left: 10px;
     margin-bottom: 10px;
     font-size: 1.8rem;
@@ -308,13 +316,64 @@ export const Technology = styled.div`
 
 export const Footer = styled.div`
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: ${(props) => props.theme.colors.backgroundPrimary};
+  border-top: 1px solid ${(props) => props.theme.colors.primary};
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  img {
+    cursor: pointer;
+    margin-left: 1rem;
+    width: 3rem;
+
+    &.selected {
+      filter: brightness(50%);
+    }
+  }
+`;
+
+export const LanguageSelection = styled.div`
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 5%;
+
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 20px;
-  background-color: ${props => props.theme.colors.backgroundPrimary};
-  border-top: 1px solid ${props => props.theme.colors.primary};
 
-  p{
+  width: 80%;
+  padding: 2rem 4rem;
+  background-color: ${(props) => props.theme.colors.backgroundPrimary};
+  border: 1px solid ${(props) => props.theme.colors.secondary};
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: 1.6rem;
+    }
+
+    img {
+      cursor: pointer;
+      margin-left: 1rem;
+      width: 3rem;
+    }
+  }
+
+  .observation {
+    margin-top: 1rem;
     font-size: 1.2rem;
   }
 `;

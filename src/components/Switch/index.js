@@ -23,14 +23,14 @@ export const Switch = styled.label`
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: ${props => props.theme.colors.backgroundTertiary};
+    background-color: ${(props) => props.theme.colors.backgroundTertiary};
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
 
   .slider:before {
     position: absolute;
-    content: "";
+    content: '';
     height: 40px;
     width: 40px;
     left: 0px;
@@ -47,11 +47,11 @@ export const Switch = styled.label`
   }
 
   input:checked + .slider {
-    background-color: ${props => props.theme.colors.primary};
+    background-color: ${(props) => props.theme.colors.primary};
   }
 
   input:focus + .slider {
-    box-shadow: 0 0 1px ${props => props.theme.colors.primary};
+    box-shadow: 0 0 1px ${(props) => props.theme.colors.primary};
   }
 
   input:checked + .slider:before {

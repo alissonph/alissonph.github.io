@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   *, input, button{
-    font-family: ${props => props.theme.fonts.fontFamily};
+    font-family: ${(props) => props.theme.fonts.fontFamily};
   }
 
   html {
@@ -18,7 +18,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    color: ${props => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.primary};
   }
 
   a{
@@ -27,7 +27,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   a:hover{
-    color: ${props => props.theme.colors.secondary};
+    color: ${(props) => props.theme.colors.secondary};
   }
 
   @media screen and (max-width: 425px){
