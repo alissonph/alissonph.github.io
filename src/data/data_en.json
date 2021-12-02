@@ -7,7 +7,7 @@
   "whatsappLink": "https://api.whatsapp.com/send?phone=5519991170250&text=Hello%20Alisson",
   "info": [
     {
-      "title": "Localization",
+      "title": "Location",
       "description": "Artur Nogueira - SP - Brazil",
       "link": "https://goo.gl/maps/d6tgm3qdCHex89h66"
     },
@@ -119,5 +119,5 @@
       "Scrum"
     ]
   },
-  "footer": "2021 | Build in React | Developed by: Alisson Paschoal Hausmann"
+  "footer": "2021 | Built in React | Developed by: Alisson Paschoal Hausmann"
 }
