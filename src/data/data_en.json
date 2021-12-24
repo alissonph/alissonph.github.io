@@ -8,7 +8,7 @@
   "info": [
     {
       "title": "Location",
-      "description": "Artur Nogueira - SP - Brazil",
+      "description": "São Paulo - Brazil",
       "link": "https://goo.gl/maps/d6tgm3qdCHex89h66"
     },
     {
@@ -30,7 +30,7 @@
   "intro": {
     "title": "Introduction",
     "subTitle": "A little more about me",
-    "description": "Front-end and mobile developer, computer scientist, I've been in contact with software development for 10 years. I'm a person who always tries to be up to date and learning new technologies and methodologies to always solve the problems in the best way possible.<br/><br/>I'm brazilian, but I also have dual German citizenship.<br/><br/>Technologies and Methodologies:<br/>- Typescript and Javascript<br/>- Git (GitFlow, Sourcetree)<br/>- APIs (Rest and SOAP)<br/>- Scrum<br/>- DevOps<br/>- Microservice<br/><br/>Front:<br/>- React (Redux, Context API, Styled Components)<br/>- VueJS (Vuex)<br/>- Angular (Angular Material, PWA, Plotly)<br/>- SASS / CSS<br/>- Bootstrap<br/><br/>Mobile:<br/>- React Native (Redux, Context API, Styled Components)<br/>- Ionic<br/><br/>I have experience in large projects and companies such as Samsung and Bosch.<br/><br/>GitHub: <a href='https://github.com/alissonph' target='_blank'>https://github.com/alissonph</a>"
+    "description": "Front-end and mobile developer, computer scientist, I have been in contact with software development for 10 years. I am a person who always tries to be up to date and learning new technologies and methodologies to always solve the problems in the best way possible.<br/><br/>I have dual citizenship, both being Brazilian and German.<br/><br/>Technologies and Methodologies:<br/>- Typescript and Javascript<br/>- Git (GitFlow, Sourcetree)<br/>- APIs (Rest and SOAP)<br/>- Scrum<br/>- DevOps<br/>- Microservice<br/><br/>Front:<br/>- React (Redux, Context API, Styled Components)<br/>- VueJS (Vuex)<br/>- Angular (Angular Material, PWA, Plotly)<br/>- SASS / CSS<br/>- Bootstrap<br/><br/>Mobile:<br/>- React Native (Redux, Context API, Styled Components)<br/>- Ionic<br/><br/>I have experience in large projects and companies such as Samsung and Bosch.<br/><br/>GitHub: <a href='https://github.com/alissonph' target='_blank'>https://github.com/alissonph</a>"
   },
   "experience": {
     "title": "Experience",
@@ -87,12 +87,6 @@
         "year": "2011 - 2013",
         "companyName": "Limeira Technical College",
         "courseName": "Computer Technician",
-        "city": "Limeira - SP - Brazil"
-      },
-      {
-        "year": "2011 - 2013",
-        "companyName": "Limeira Technical College",
-        "courseName": "High School",
         "city": "Limeira - SP - Brazil"
       }
     ]
