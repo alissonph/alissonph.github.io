@@ -1,7 +1,7 @@
 {
   "name": "ALISSON",
   "lastName": "HAUSMANN",
-  "function": "Desenvolvedor Front-end e Mobile",
+  "function": "Desenvolvedor Mobile e Front-end",
   "linkedinLink": "https://www.linkedin.com/in/alissonph",
   "githubLink": "https://github.com/alissonph",
   "whatsappLink": "https://api.whatsapp.com/send?phone=5519991170250&text=Ol%C3%A1%20Alisson",
@@ -30,7 +30,7 @@
   "intro": {
     "title": "Introdução",
     "subTitle": "Um pouco mais sobre mim",
-    "description": "Desenvolvedor front-end e mobile, formado em ciências da computação, tenho contato com programação há 10 anos. Sou uma pessoa que sempre busca estar atualizada aprendendo novas tecnologias e metodologias para sempre resolver os problemas da melhor maneira possível.<br/><br/>Sou brasileiro, mas também tenho dupla cidadania alemã.<br/><br/>Tecnologias e Metodologias:<br/>- Typescript e Javascript<br/>- Git (GitFlow, Sourcetree)<br/>- APIs (Rest e SOAP)<br/>- Scrum<br/>- DevOps<br/>- Microserviços<br/><br/>Front:<br/>- React (Redux, Context API, Styled Components)<br/>- VueJS (Vuex)<br/>- Angular (Angular Material, PWA, Plotly)<br/>- SASS / CSS<br/>- Bootstrap<br/><br/>Mobile:<br/>- React Native (Redux, Context API, Styled Components)<br/>- Ionic<br/><br/>Possuo experiência em grandes projetos e empresas como Samsung e Bosch.<br/><br/>GitHub: <a href='https://github.com/alissonph' target='_blank'>https://github.com/alissonph</a>"
+    "description": "Sou desenvolvedor mobile e front-end, além de cientista da computação. Comecei a estudar programação em 2010 e trabalho profissionalmente há seis anos. Estou sempre em busca de aprender algo novo.<br/><br/>Recentemente, tenho trabalhado em um grande aplicativo de carteira de pagamentos com mais de 5 milhões de usuários e mais de 10 milhões de downloads na Play Store e App Store.<br/><br/>Tenho dupla cidadania no Brasil e Alemanha.<br/><br/>Segue abaixo uma lista das tecnologias e metodologias com as quais tenho experiência:<br/>- Typescript e JavaScript<br/>- Git (incluindo GitFlow e Sourcetree)<br/>- APIs (incluindo Rest e SOAP)<br/>- Scrum<br/><br/>No desenvolvimento mobile, tenho experiência com:<br/>- React Native (incluindo Redux, Context API e Styled Components)<br/>- Ionic<br/><br/>No desenvolvimento front-end, sou proficiente em:<br/>- React (incluindo Redux, Context API e Styled Components)<br/>- Next.js<br/>- VueJS (incluindo Vuex)<br/>- Angular (incluindo Angular Material, PWA e Plotly)<br/>- SASS/CSS<br/>- Bootstrap<br/><br/>No geral, tenho uma base sólida em programação e gosto de me manter atualizado com os novos desenvolvimentos na indústria.<br/><br/>GitHub: <a href='https://github.com/alissonph' target='_blank'>https://github.com/alissonph</a>"
   },
   "experience": {
     "title": "Experiência",
@@ -39,9 +39,9 @@
       {
         "year": "10/2021 - Atual",
         "companyName": "RecargaPay",
-        "functionName": "Senior Mobile Engineer",
+        "functionName": "Senior Mobile Developer",
         "city": "São Paulo - SP",
-        "description": "Trabalho desenvolvendo novas funcionalidades e correções de bugs no aplicativo RecargaPay, que é um aplicativo de carteira de pagamentos.<br/><br/>Tecnologias utilizadas:<br/>- React Native<br/>- Git (Github, SourceTree)<br/><br/><br/>"
+        "description": "A RecargaPay é a principal carteira digital de pagamentos no Brasil, uma fintech com mais de 650 funcionários. Nossa missão é democratizar os pagamentos móveis e os serviços financeiros. Como líder técnico da time de core, sou responsável por atualizar e migrar bibliotecas, realizar tarefas de segurança e arquitetura, e trabalhar com código nativo usando a bridge. Além dessas responsabilidades, também desenvolvo novas funcionalidades para o aplicativo.<br/><br/>Tecnologias utilizadas:<br/>- React Native (Redux)<br/>- Git (Github, SourceTree)<br/><br/><br/>"
       },
       {
         "year": "08/2021 - 09/2021",

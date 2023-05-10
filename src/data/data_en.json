@@ -1,7 +1,7 @@
 {
   "name": "ALISSON",
   "lastName": "HAUSMANN",
-  "function": "Front-end and Mobile Developer",
+  "function": "Mobile and Front-end Developer",
   "linkedinLink": "https://www.linkedin.com/in/alissonph",
   "githubLink": "https://github.com/alissonph",
   "whatsappLink": "https://api.whatsapp.com/send?phone=5519991170250&text=Hello%20Alisson",
@@ -30,7 +30,7 @@
   "intro": {
     "title": "Introduction",
     "subTitle": "A little more about me",
-    "description": "Front-end and mobile developer, computer scientist, I have been in touch with software development for 10 years. I am a person who always tries to be up to date and learning new technologies and methodologies to always solve the problems in the best way possible.<br/><br/>I have dual citizenship, both being Brazilian and German.<br/><br/>Technologies and Methodologies:<br/>- Typescript and Javascript<br/>- Git (GitFlow, Sourcetree)<br/>- APIs (Rest and SOAP)<br/>- Scrum<br/>- DevOps<br/>- Microservice<br/><br/>Front:<br/>- React (Redux, Context API, Styled Components)<br/>- VueJS (Vuex)<br/>- Angular (Angular Material, PWA, Plotly)<br/>- SASS / CSS<br/>- Bootstrap<br/><br/>Mobile:<br/>- React Native (Redux, Context API, Styled Components)<br/>- Ionic<br/><br/>I have experience in large projects and companies such as Samsung and Bosch.<br/><br/>GitHub: <a href='https://github.com/alissonph' target='_blank'>https://github.com/alissonph</a>"
+    "description": "I am a mobile and front-end developer, as well as a computer scientist. I started studying programming in 2010 and have been working professionally for six years. I am always eager to learn and stay up to date with the latest technologies and methodologies.<br/><br/>Recently, I have been working on a large payment wallet app with over 5 million users and more than 10 million downloads on both the Play Store and App Store.<br/><br/>I hold dual citizenship in Brazil and Germany.<br/><br/>Here is a list of the technologies and methodologies I am experienced with:<br/>- Typescript and JavaScript<br/>- Git (including GitFlow and Sourcetree)<br/>- APIs (including Rest and SOAP)<br/>- Scrum<br/><br/>Regarding mobile development, I have experience with:<br/>- React Native (including Redux, Context API, and Styled Components)<br/>- Ionic<br/><br/>Regarding front-end development, I am proficient in:<br/>- React (including Redux, Context API, and Styled Components)<br/>- Next.js<br/>- VueJS (including Vuex)<br/>- Angular (including Angular Material, PWA, and Plotly)<br/>- SASS/CSS<br/>- Bootstrap<br/><br/>Overall, I have a strong foundation in programming and enjoy staying up-to-date with new developments in the industry.<br/><br/>GitHub: <a href='https://github.com/alissonph' target='_blank'>https://github.com/alissonph</a>"
   },
   "experience": {
     "title": "Experience",
@@ -39,9 +39,9 @@
       {
         "year": "10/2021 - Current",
         "companyName": "RecargaPay",
-        "functionName": "Senior Mobile Engineer",
+        "functionName": "Senior Mobile Developer",
         "city": "São Paulo - SP - Brazil",
-        "description": "RecargaPay is the leading mobile payment wallet in Brazil. A fintech (450+ employees) whose the mission is democratize mobile payments and financial services. Here I work developing new features and bug fixes for the mobile app using React Native.<br/><br/>Main technologies:<br/>- React Native (Redux)<br/>- Git (Github, SourceTree)<br/><br/><br/>"
+        "description": "RecargaPay is the leading mobile payment wallet in Brazil, and a fintech with over 650 employees. Our mission is to democratize mobile payments and financial services. As a tech leader on the core team, I am responsible for updating and migrating libraries, security tasks, architecture tasks, and native code using the bridge. In addition to these responsibilities, I also develop new features for the platform.<br/><br/>Main technologies:<br/>- React Native (Redux)<br/>- Git (Github, SourceTree)<br/><br/><br/>"
       },
       {
         "year": "08/2021 - 09/2021",
