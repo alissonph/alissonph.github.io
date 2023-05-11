@@ -45,6 +45,14 @@
         "description": "A RecargaPay é a principal carteira digital de pagamentos no Brasil, uma fintech com mais de 650 funcionários. Nossa missão é democratizar os pagamentos móveis e os serviços financeiros. Como líder técnico da time de core, sou responsável por atualizar e migrar bibliotecas, realizar tarefas de segurança e arquitetura, e trabalhar com código nativo usando a bridge. Além dessas responsabilidades, também desenvolvo novas funcionalidades para o aplicativo.<br/><br/>Tecnologias utilizadas:<br/>- React Native (Redux)<br/>- Git (Github, SourceTree)<br/><br/><br/>"
       },
       {
+        "startDate": "01/2021",
+        "endDate": "",
+        "companyName": "APH Desenvolvimento",
+        "functionName": "Senior Mobile Developer",
+        "city": "Artur Nogueira - SP - Brazil",
+        "description": "Eu trabalho como desenvolvedor freelancer, com foco no desenvolvimento de aplicativos móveis utilizando React Native. No entanto, também tenho experiência em projetos web utilizando React e projetos de backend utilizando Node.js."
+      },
+      {
         "startDate": "08/2021",
         "endDate": "09/2021",
         "companyName": "Stefanini",
