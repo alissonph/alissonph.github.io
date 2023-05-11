@@ -37,35 +37,40 @@
     "subTitle": "Professional experiences",
     "items": [
       {
-        "year": "10/2021 - Current",
+        "startDate": "10/2021",
+        "endDate": "",
         "companyName": "RecargaPay",
         "functionName": "Senior Mobile Developer",
         "city": "São Paulo - SP - Brazil",
         "description": "RecargaPay is the leading mobile payment wallet in Brazil, and a fintech with over 650 employees. Our mission is to democratize mobile payments and financial services. As a tech leader on the core team, I am responsible for updating and migrating libraries, security tasks, architecture tasks, and native code using the bridge. In addition to these responsibilities, I also develop new features for the platform.<br/><br/>Main technologies:<br/>- React Native (Redux)<br/>- Git (Github, SourceTree)<br/><br/><br/>"
       },
       {
-        "year": "08/2021 - 09/2021",
+        "startDate": "08/2021",
+        "endDate": "09/2021",
         "companyName": "Stefanini",
         "functionName": "Mobile Developer (Mid-level)",
         "city": "Brasília - SP - Brazil",
         "description": "Stefanini is a brazilian multinational software consulting (25000+ employees). Detran is the Department of Motor Vehicles (DMV) in Brazil. I worked developing the Detran application (Brasília - DF - Brazil). I redesigned the entire app based on the prototype made by the UI/UX team (Adobe XD) and developed new features. I also participated publishing the new app version on Google Play (Android) and App Store (iOS).<br/><br/>Main technologies:<br/>- React Native (Context API, Stylesheet)<br/>- Git (GitFlow, SourceTree)<br/><br/><br/>"
       },
       {
-        "year": "02/2021 - 07/2021",
+        "startDate": "02/2021",
+        "endDate": "07/2021",
         "companyName": "Icaro Tech",
         "functionName": "Front-end Developer (Mid-level)",
         "city": "Campinas - SP - Brazil",
         "description": "Icaro Tech works in the Digital Transformation of companies through Automation, with a focus on Operational Efficiency and User Experience (200+ employees). Bosch is a German multinational engineering and electronics company. I worked on the Bosch project, developing a new web application called Fleet management, I was responsible for the all the front-end development in Angular during some months. I started working on the project that was in progress, we finished it and released a production version.<br/><br/>Main technologies:<br/>- Angular 8 (Angular Material, Plotly, SASS, PWA, API Rest, Observable)<br/>- Git (GitFlow, SourceTree)<br/>- Azure (Kubernates, Docker)<br/>- Jira<br/>- Java (Spring Boot, Hibernate) <br/>- Scrum<br/><br/><br/>"
       },
       {
-        "year": "12/2017 - 02/2021",
+        "startDate": "12/2017",
+        "endDate": "02/2021",
         "companyName": "TOTVS Interior Paulista",
         "functionName": "Software Developer (Mid-level)",
         "city": "Campinas - SP - Brazil",
         "description": "TOTVS is the largest technology company in Brazil, works with management software, productivity and collaboration platforms and consulting. I worked developing new features for Protheus software, and developing web applications. I worked on over 15 different clients, the biggest one being Samsung. I also conducted technical training, teaching how to develop a web app, and was responsible for good coding practices, structure and organization in the Git/SVN repository in some projects.<br/><br/>Main technologies:<br/>- Angular, HMTL, CSS, JavaScript, JQuery and Bootstrap<br/>- Protheus: ADVPL (proprietary language)<br/>- SQL Server<br/>- Git and SVN<br/>- Rest and SOAP APIs<br/><br/><br/>"
       },
       {
-        "year": "12/2013 - 11/2017",
+        "startDate": "12/2013",
+        "endDate": "11/2017",
         "companyName": "Art Informática, Papelaria e Eletrônicos LTDA.",
         "functionName": "Computer Technician",
         "city": "Artur Nogueira - SP - Brazil",

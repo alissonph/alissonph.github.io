@@ -32,7 +32,11 @@ import unitedStates from '../../assets/icons/united-states.svg';
 import loading from '../../assets/icons/loading.svg';
 import dataPtBr from '../../data/data_pt-BR.json';
 import dataEn from '../../data/data_en.json';
-import { hasPreferredLanguage, setPreferredLanguage } from '../../utils/utils';
+import {
+  formatJobDuration,
+  hasPreferredLanguage,
+  setPreferredLanguage,
+} from '../../utils/utils';
 
 export default function Page({ toggleTheme, setLanguage, language }) {
   const [data, setData] = useState(null);
@@ -177,7 +181,9 @@ export default function Page({ toggleTheme, setLanguage, language }) {
                 <SectionExperienceInfo>
                   <div className='badge'></div>
                   <ExperienceInfo>
-                    <p className='yearInfo'>{item.year}</p>
+                    <p className='yearInfo'>
+                      {formatJobDuration(item.startDate, item.endDate)}
+                    </p>
                     <p className='companyName'>{item.companyName}</p>
                     <p className='functionName'>{item.functionName}</p>
                     <p className='city'>{item.city}</p>
