@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 import { GlobalStyles } from './styles/GlobalStyles';
 import Page from './components/Page';
@@ -16,7 +16,7 @@ function App() {
     setTheme(theme === dark ? light : dark);
   };
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: '/',
       element: (
