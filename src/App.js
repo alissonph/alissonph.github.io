@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 import { GlobalStyles } from './styles/GlobalStyles';
 import Page from './components/Page';
+import Privacy from './components/Privacy';
 import { light, dark } from './styles/Theme';
 import { getPreferredLanguage, isDarkMode } from './utils/utils';
 
@@ -13,16 +16,27 @@ function App() {
     setTheme(theme === dark ? light : dark);
   };
 
-  return (
-    <ThemeProvider theme={theme}>
-      <Page
-        toggleTheme={toggleTheme}
-        setLanguage={setLanguage}
-        language={language}
-      />
-      <GlobalStyles />
-    </ThemeProvider>
-  );
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: (
+        <ThemeProvider theme={theme}>
+          <Page
+            toggleTheme={toggleTheme}
+            setLanguage={setLanguage}
+            language={language}
+          />
+          <GlobalStyles />
+        </ThemeProvider>
+      ),
+    },
+    {
+      path: '/privacy',
+      element: <Privacy />,
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
 }
 
 export default App;
